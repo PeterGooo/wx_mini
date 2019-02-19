@@ -1,0 +1,18 @@
+button {
+    margin: 40rpx 0;
+}
+
+.text-box {
+    margin-bottom: 70rpx;
+    padding: 40rpx 60rpx;
+    display: flex;
+    min-height: 300rpx;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30rpx;
+    color: #353535;
+    line-height: 2em;
+	background-color:rgba(244,244,244,0.32);
+	min-width: 400rpx;
+}

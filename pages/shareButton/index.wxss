@@ -1,0 +1,4 @@
+/* pages/shareButton/index.wxss */
+.inner{
+	color: red
+}

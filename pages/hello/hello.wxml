@@ -1,0 +1,15 @@
+<view class="container">
+	<text>Hello, {{userInfo.nickName}}</text>
+
+    <view class="page-body">
+        <view class="page-section page-section-spacing">
+            <view class="text-box" scroll-y="true" scroll-top="{{scrollTop}}">
+                <text>{{text}}</text>
+            </view>
+            <button disabled="{{!canAdd}}" bindtap="add">向前 向右</button>
+            <button disabled="{{!canRemove}}" bindtap="remove">向后 向左</button>
+        </view>
+    </view>
+
+    <template is="foot" />
+</view>

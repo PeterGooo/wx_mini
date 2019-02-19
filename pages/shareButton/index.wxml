@@ -1,0 +1,6 @@
+<!--pages/shareButton/index.wxml-->
+<view class="inner">
+	{{ innerText }}
+	<button open-type='share' data-id='1'>Share btn</button>
+</view>
+<slot></slot>
